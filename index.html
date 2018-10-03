@@ -10,10 +10,14 @@
   alipayURL="HTTPS://QR.ALIPAY.COM/FKX00324M9FELTP9EX7HD4";//从支付宝收款二维码里得到的URL
   wechat = "MicroMessenger";
   alipay = "AlipayClient";
+  qq = "QQ";
   userAgent = getUA();
   if(userAgent.indexOf(wechat)!=-1){
    //微信
    window.location.href="static/wechat.png"
+  }else if(userAgent.indexOf(qq)!=-1){
+   //QQ
+   window.location.href="static/qq.png"
   }else if(userAgent.indexOf(alipay)!=-1){
    //支付宝
    window.location.href=alipayURL;
