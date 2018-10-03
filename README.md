@@ -12,7 +12,9 @@
 然后将 index.html 中的变量 alipayURL 改为自己的支付宝收款链接。
 ### 2.更换微信二维码
 保存微信收款二维码，放到 static/ 文件中，并命名为 wechat.png  
-### 3.设置为 Github Pages
+### 3.更换QQ二维码
+保存QQ收款二维码，放到 static/ 文件中，并命名为 qq.png  
+### 4.设置为 Github Pages
 选择 Settings --> GitHub Pages 设置为 Github Pages  
 **如果没有通过 ICP 备案的域名建议不要使用自定义域名，会被微信拦截**  
 设置成功后得到链接，使用链接生成二维码即可。
